@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "982393317035",
+    "firebase_url": "https://ydkimtalk.firebaseio.com",
+    "project_id": "ydkimtalk",
+    "storage_bucket": "ydkimtalk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982393317035:android:b762ee23708b1316",
+        "android_client_info": {
+          "package_name": "com.example.anti2.travelwallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982393317035-9enn7okedu82k2spijj5gjqpo0lnf501.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anti2.travelwallet",
+            "certificate_hash": "a00646a43ee3802820d66d1491a17c4d08ca30da"
+          }
+        },
+        {
+          "client_id": "982393317035-kdrcm3jeqf8k58f33vfqaglqs4dm5l0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmENa_rLSVxCukeUHFPXmHF5vQlncWU48"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982393317035-kdrcm3jeqf8k58f33vfqaglqs4dm5l0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982393317035:android:c2434ddca37f951f",
+        "android_client_info": {
+          "package_name": "com.example.anti2.ydkimtalk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982393317035-5gl07s3m2lfeh128hi3klm7tlbar26hg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anti2.ydkimtalk",
+            "certificate_hash": "a00646a43ee3802820d66d1491a17c4d08ca30da"
+          }
+        },
+        {
+          "client_id": "982393317035-kdrcm3jeqf8k58f33vfqaglqs4dm5l0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmENa_rLSVxCukeUHFPXmHF5vQlncWU48"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982393317035-kdrcm3jeqf8k58f33vfqaglqs4dm5l0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982393317035:android:2d531acafac03cbb",
+        "android_client_info": {
+          "package_name": "com.example.anti2110.financeinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982393317035-66pl9t20jgcpufbr6l1fa8tn31s78lmn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.anti2110.financeinfo",
+            "certificate_hash": "2b8d1e43095b52001089a1c200030e551ae092d6"
+          }
+        },
+        {
+          "client_id": "982393317035-kdrcm3jeqf8k58f33vfqaglqs4dm5l0r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmENa_rLSVxCukeUHFPXmHF5vQlncWU48"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982393317035-kdrcm3jeqf8k58f33vfqaglqs4dm5l0r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

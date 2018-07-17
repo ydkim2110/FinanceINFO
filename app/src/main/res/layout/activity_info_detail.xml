@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoDetailActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relLayout1">
+
+        <include layout="@layout/detail_toolbar" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relLayout1"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/relLayout2">
+
+            <ScrollView
+                android:scrollbars="none"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/companyName"
+                        android:text="한국투자증권"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/title"
+                        android:layout_marginTop="10sp"
+                        android:layout_below="@+id/companyName"
+                        android:text="2018년 일반/장기보상 경력/신입 직원 채용"
+                        android:textSize="18sp"
+                        android:textStyle="bold"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/category"
+                        android:layout_below="@+id/title"
+                        android:text="1. 모집분야"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TableLayout
+                        android:id="@+id/category_sub"
+                        android:layout_below="@id/category"
+                        android:layout_marginVertical="16dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="#f1f1f1">
+
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:text="분야"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2"/>
+
+                            <TextView
+                                android:text="내용"
+                                android:layout_marginLeft="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="8"/>
+                        </TableRow>
+                        <TableRow
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"    >
+
+                            <TextView
+                                android:text="세간살이"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="2" />
+
+                            <TextView
+                                android:text="가나다라여기가 어디냐\n우리나라 만세"
+                                android:layout_marginLeft="20dp"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="8" />
+                        </TableRow>
+                    </TableLayout>
+
+                    <TextView
+                        android:id="@+id/common"
+                        android:layout_below="@+id/category_sub"
+                        android:text="2. 공통사항"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/common_sub"
+                        android:layout_below="@+id/common"
+                        android:text="- 관련자격증 소지자 우대\n- 장애인 및 국가보훈대상자 관련 법규에 의견 우대\n- 기타: 군필 또는 군면제자로 해외여행 결격 사유가 없는자"
+                        android:layout_marginTop="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/condition"
+                        android:layout_below="@+id/common_sub"
+                        android:text="3. 근무조건"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/condition_sub"
+                        android:layout_below="@+id/condition"
+                        android:text="- 정규직, 주 5일 근무\n- 회사 내규상 처우산정 기준에 따름"
+                        android:layout_marginTop="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/document"
+                        android:layout_below="@+id/condition_sub"
+                        android:text="4. 제출서류"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/document_sub"
+                        android:layout_below="@+id/document"
+                        android:text="- 이력서\n- 자기소개서\n- 경력증명서"
+                        android:layout_marginTop="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/process"
+                        android:layout_below="@+id/document_sub"
+                        android:text="5. 전형절차"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/process_sub"
+                        android:layout_below="@+id/process"
+                        android:text="- 서류전형 -> 면접 -> 채용검진 -> 최종합격\n- 전형별 세부일정은 단계별 합격자 개별 안내"
+                        android:layout_marginTop="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/dueday"
+                        android:layout_below="@+id/process_sub"
+                        android:text="6. 접수기간 및 방법"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/dueday_sub"
+                        android:layout_below="@+id/dueday"
+                        android:text="- 접수 기간 : 2018.04.04 ~ 2018.05.01\n- 온라인 지원"
+                        android:layout_marginTop="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/other"
+                        android:layout_below="@+id/dueday_sub"
+                        android:text="7. 기타"
+                        android:textStyle="bold"
+                        android:textColor="@android:color/black"
+                        android:layout_marginTop="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/other_sub"
+                        android:layout_below="@+id/other"
+                        android:text="- 제출된 서류 내용이 사실과 다를 경우 합격이 취소됩니다."
+                        android:layout_marginTop="10sp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                </RelativeLayout>
+
+            </ScrollView>
+
+    </RelativeLayout>
+
+</RelativeLayout>
