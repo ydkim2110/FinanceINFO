@@ -1,3 +1,8 @@
 <resources>
+
     <string name="app_name">FinanceInfo</string>
+
+    <string name="nav_open_draw">open</string>
+    <string name="nav_close_draw">close</string>
+
 </resources>
