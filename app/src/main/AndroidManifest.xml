@@ -9,18 +9,35 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
-        </activity>
-        <activity android:name=".InfoDetailActivity"></activity>
-        <activity android:name=".LoginActivity"></activity>
-        <activity android:name=".RegisterActivity"></activity>
-        <activity android:name=".Welcome">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Login.LoginActivity" />
+        <activity android:name=".Login.RegisterActivity" />
+        <activity android:name=".Login.Welcome">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".Detail.InfoDetailActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Login.SettingsActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Post.PostActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".Login.SignOutActivity" />
+        <activity android:name=".Detail.FullScreenImageActivity" />
+        <activity
+            android:name=".Post.PostDetailActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".BankActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".QuestionActivity"
+            android:parentActivityName=".MainActivity"></activity>
     </application>
 
 </manifest>

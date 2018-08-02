@@ -14,22 +14,30 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
 
+                <ImageView
+                    android:id="@+id/detail_toolbar_backArrow"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/ic_backarrow"/>
+
                 <TextView
-                    android:id="@+id/main_toolbar_title"
-                    android:text="Finance INFO"
-                    android:textSize="24sp"
-                    android:textColor="@color/white"
+                    android:id="@+id/detail_toolbar_title"
                     android:layout_width="wrap_content"
-                    android:layout_height="wrap_content" />
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toRightOf="@+id/detail_toolbar_backArrow"
+                    android:text="Infomation"
+                    android:textColor="@color/white"
+                    android:textSize="24sp" />
 
                 <ImageView
                     android:layout_width="30dp"
                     android:layout_height="30dp"
                     android:layout_alignParentRight="true"
-                    android:layout_marginEnd="20dp"
+                    android:layout_marginEnd="10dp"
                     android:layout_centerVertical="true"
-                    android:id="@+id/main_menu"
-                    android:src="@drawable/ic_menu"/>
+                    android:id="@+id/detail_bookmark"
+                    android:src="@drawable/ic_bookmark"/>
 
             </RelativeLayout>
 

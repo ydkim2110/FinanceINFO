@@ -7,17 +7,18 @@ public class Info {
     private String endDate;
     private String startDate;
     private String title;
+    private String imageUrl;
 
+    public Info() {
+    }
 
-    public Info(String category, String companyName, String endDate, String startDate, String title) {
+    public Info(String category, String companyName, String endDate, String startDate, String title, String imageUrl) {
         this.category = category;
         this.companyName = companyName;
         this.endDate = endDate;
         this.startDate = startDate;
         this.title = title;
-    }
-
-    public Info() {
+        this.imageUrl = imageUrl;
     }
 
     public String getCategory() {
@@ -60,4 +61,11 @@ public class Info {
         this.title = title;
     }
 
+    public String getImageUrl() {
+        return imageUrl;
+    }
+
+    public void setImageUrl(String imageUrl) {
+        this.imageUrl = imageUrl;
+    }
 }

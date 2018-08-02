@@ -1,4 +1,5 @@
-<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -12,7 +13,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/tabs"
-                android:background="@drawable/grey_bottom_border">
+                app:tabTextColor="@color/white"
+                android:background="@color/colorPrimary">
 
             </android.support.design.widget.TabLayout>
 

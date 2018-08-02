@@ -26,11 +26,11 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
 
         <TextView
+            android:id="@+id/nav_header_email_text"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
-            android:text="ydkim2110@gmail.com"
+            android:text="email..."
             android:textSize="16sp"/>
-
     </LinearLayout>
 </FrameLayout>

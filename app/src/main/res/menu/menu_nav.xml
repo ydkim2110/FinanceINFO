@@ -2,39 +2,44 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/nav_inbox"
+            android:id="@+id/nav_bank"
             android:icon="@android:drawable/sym_action_email"
-            android:title="Coffee"
+            android:title="은행"
             android:checked="true">
         </item>
         <item
-            android:id="@+id/nav_drafts"
+            android:id="@+id/nav_investment"
             android:icon="@android:drawable/ic_menu_edit"
-            android:title="Music">
+            android:title="증권">
         </item>
         <item
-            android:id="@+id/nav_sent"
+            android:id="@+id/nav_insurance"
             android:icon="@android:drawable/ic_menu_send"
-            android:title="Dollar">
+            android:title="보험">
         </item>
         <item
-            android:id="@+id/nav_trash"
+            android:id="@+id/nav_others"
             android:icon="@android:drawable/ic_menu_delete"
-            android:title="Wall Street">
+            android:title="기타">
         </item>
     </group>
 
     <item android:title="Support">
         <menu>
             <item
-                android:id="@+id/nav_help"
-                android:icon="@android:drawable/ic_menu_help"
-                android:title="Need a help?">
+                android:id="@+id/nav_account_settings"
+                android:icon="@drawable/ic_backarrow"
+                android:title="마이페이지">
             </item>
             <item
-                android:id="@+id/nav_feedback"
-                android:icon="@android:drawable/sym_action_email"
-                android:title="Feedback">
+                android:id="@+id/nav_question"
+                android:icon="@android:drawable/ic_menu_help"
+                android:title="문의하기">
+            </item>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_backarrow"
+                android:title="로그아웃">
             </item>
         </menu>
 

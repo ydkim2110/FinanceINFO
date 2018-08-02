@@ -1,10 +1,13 @@
-package com.example.anti2110.financeinfo;
+package com.example.anti2110.financeinfo.Login;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+
+import com.example.anti2110.financeinfo.MainActivity;
+import com.example.anti2110.financeinfo.R;
 
 public class Welcome extends AppCompatActivity {
 
